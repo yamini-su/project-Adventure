@@ -1,12 +1,10 @@
 *{
-    margin: 0;
-    padding: 0;
     font-family: 'Montserrat', sans-serif;
     background-color:rgb(177, 205, 243);
 }
 .container{
     text-align: center;
-    padding: .8em 1.2em;
+    padding: .4em 1em;
 }
 
 ul{
@@ -21,7 +19,7 @@ ul{
     display: none;
 }
 .exit{
-    width: 25px;
+    width: 20px;
 }
 .logo{ 
     text-align: left;
@@ -30,35 +28,52 @@ ul{
     flex-direction: column-reverse;
 }
 header{
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
 
-.menu{
-    margin-top: 45%;
-    width: 25px;
-    text-decoration: none;
-}  
-section{
-    display: flex;
-    flex-direction: column-reverse;
+.big_image{
+    position: absolute;
+    width: 58%;
+    top: 13px;
+    left: 200px;
 }
 
-.header-text h1, .subhead{
+.menu{
+    margin-top: 40%;
+    width: 35px;
+
+}  
+
+.globe{
     position: relative;
-    margin-top: 5%;
-    z-index: 3;
+    width: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.header-text h1{
+    margin-top: 32%;
 }
 
 .subhead{
-    font-size: 1.1em;
+    font-size: 2em;
 }
 
-.blue-container{
+.grey-container{
     background-color:rgb(58, 59, 59);
     color: whitesmoke;
-    margin-top: 15%;
+    margin-top: 50px;
     padding: 4em 0 2em;
     transform: skewY(-1deg);
     border-top-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    text-align: center;
 }
+
+.blue-container{
+    background: red;
+    padding: 4em 0 2em;
+    margin-top: -3%;
+}
+
