@@ -1,0 +1,58 @@
+
+.wrapper{
+  width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  background-color: white;  
+  transition: 0.4s;
+  width: 500px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px;
+  float: left;
+}
+
+.cards:hover {
+  box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.6);
+}
+
+.container{
+  padding: 2px 16px;
+
+}
+
+img{
+  height: 300px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.cover{
+ position: relative;
+ margin:0 0;
+}
+
+.cover img{ vertical-align: middle; width: 100%}
+
+.cover .content {
+   position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
