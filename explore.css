@@ -20,8 +20,9 @@
   width: 500px;
   text-align: center;
   font-size: 16px;
-  align-items:center;
   float: left;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .cards:hover {
@@ -53,7 +54,7 @@ img{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
-  width: 97%;
+  width: 98%;
   padding: 20px;
 }
 
