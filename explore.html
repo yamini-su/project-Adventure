@@ -2,140 +2,25 @@
 <html>
 <head>
 	<title>explore</title>
-	<style>
- ul{
-    list-style-type: none;
-    display: inline;
-}
-
-.logo img{
-    margin: .5em;
-    width: 75px;
-}
-
-.hide-mobile {
-    display: none;
-}
-
-.logo{ 
-    text-align: left;
-    font-size: 2em;
-    display: flex;
-    flex-direction: column-reverse;
-}
-header{
-    display: flex;
-    justify-content: space-between;
-}
-
-.menu{
-    margin-top: 40%;
-    width: 35px;
-    margin: 1em;
-}
-
-nav ul li a{
-    color: white;
-    text-decoration: none;
-    width: 100%;
-    display: block;
-    padding: 1em 1.5em;
-    background: rgb(58, 59, 59);
-}
-
-nav ul li a:hover{
-    background: #4d4b64;
-}
-@media only screen and (min-width:1024px){
-    
-    .show-desktop{
-        display: block;
-        margin: 0 auto 13% auto;
-    }
-    
-    nav ul{
-        position: inherit;
-        width: auto;
-        background: none;
-        height: auto;
-        display: flex;
-        padding-top: 0;
-    }
-    
-
-    nav ul li{
-        float: left;
-    }
-
-    nav ul li a{
-        color: black;
-        background: inherit;
-    }
-
-    nav ul li a:hover{
-        background: inherit;
-    }
-    
-    .grey-container{
-        padding: 4em 0;
-    }
-    .grey-container ul{
-        display: flex;
-    }
-    .blue-container ul{
-        display: flex;
-        justify-content: center;
-    }
-    .blue-container ul li{
-        margin-left: 3em;
-    }
-    .hide-desktop{
-        display: none;
-    }
-    
-    .cta{
-        font-size: 2em;
-        width: 50%; 
-    }
-}
-
-
-@media only screen and (min-width: 1800px){
-    section{
-        flex-direction: row;
-        margin-bottom: -10%;
-    }
-    .header-text{
-        position: absolute;
-        font-size: 1.8em;
-        top: 40%;
-        left: 20%;
-        text-align: left;
-        transform: translateY(-50%);
-    }
-    .exit{
-        display: none;
-    }
-    .big_image{
-        width: 500px;
-    }
-	</style>
 </head>
 <body bgcolor="#81ceec">
 	<header>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="menu.css">
+		
                 <nav>
-                    <a href="#home">
-                       <img src="images/ham.svg" onclick="opennav()" alt="menu" class="menu hide-desktop" id="menu"></a>
+                    <a href="./home.html">
+                       <img src="./images/ham.svg" onclick="opennav()" alt="menu" class="menu hide-desktop" id="menu"></a>
                     <ul class="nav show-desktop hide-mobile"  id="nav">
                         <li><a href="javascript:void(0)" class="exit" onclick="closenav()" id="exit">&times;</a></li>
                         <li>
-                            <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+                            <a class="active" href="./home.html"><i class="fa fa-fw fa-home"></i> Home</a>
                         </li>
                         <li>
-                            <a href="#About"><i class="fa fa-fw fa-user"></i>   About</a>
+                            <a href="./home.html#About"><i class="fa fa-fw fa-user"></i>   About</a>
                         </li>
                         <li>
-                            <a href="#signup"><i class="fa fa-sign-in"></i> SignUp</a>
+                            <a href="./home.html/#signup"><i class="fa fa-sign-in"></i> SignUp</a>
                         </li>
                         <li>
                             <a href="./explore.html"><i class="fa fa-fw fa-search"></i> Explore</a>
@@ -155,8 +40,6 @@ nav ul li a:hover{
     <h1><b>BEST ADVENTURES TO EXPERIENCE</b></h1>
    </div>
   </div><br>
-
-
 
 <div class="wrapper">
   <div class="cards">
