@@ -24,9 +24,8 @@ header{
 }
 
 .menu{
-    margin-top: 40%;
     width: 35px;
-    margin: 1em;
+    margin: 0;
 }
 nav ul li a{
     color: white;
@@ -44,7 +43,7 @@ nav ul li a:hover{
     
     .show-desktop{
         display: block;
-        margin: 0 auto 13% auto;
+        /*margin: 0 auto 13% auto;*/
     }
     
     nav ul{
