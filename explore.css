@@ -20,7 +20,7 @@
   width: 500px;
   text-align: center;
   font-size: 16px;
-  margin: 10px;
+  align-items:center;
   float: left;
 }
 
@@ -53,7 +53,7 @@ img{
   background: rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.5); 
   color: #f1f1f1;
-  width: 95%;
+  width: 97%;
   padding: 20px;
 }
 
