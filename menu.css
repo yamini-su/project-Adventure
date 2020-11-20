@@ -17,6 +17,8 @@ ul{
     font-size: 2em;
     display: flex;
     flex-direction: column-reverse;
+    margin-top:0;
+    margin-bottom:0;
 }
 header{
     display: flex;
@@ -101,8 +103,8 @@ nav ul li a:hover{
     .header-text{
         position: absolute;
         font-size: 1.8em;
-        top: 40%;
-        left: 20%;
+        /*top: 40%;
+        left: 20%;*/
         text-align: left;
         transform: translateY(-50%);
     }
