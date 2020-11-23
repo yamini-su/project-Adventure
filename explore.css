@@ -1,0 +1,99 @@
+
+.wrapper{
+  width: 1200px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+/*@media screen {
+  .cards {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}*/
+
+.cards {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.6);
+  background-color: white;  
+  transition: 0.4s;
+  width: 500px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 10px;
+  float: left;
+}
+
+.cards:hover {
+  box-shadow: 8px 8px 16px 16px rgba(0,0,0,0.6);
+}
+
+.container{
+  padding: 2px 16px;
+
+}
+
+img{
+  height: 300px;
+  width: 200px;
+  max-width: 100%;
+}
+
+.cover{
+ position: relative;
+ margin:0 0;
+ margin-top: 0;
+}
+
+.cover img{ vertical-align: middle; width: 100%}
+
+.cover .content {
+   position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 98%;
+  padding: 20px;
+}
+
+.feedback {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 1px;
+    bottom: 0px;
+    clear: both;
+}
+
+.feedback h2{
+    font-size: 2em;
+}
+
+.atc{
+    background: rgb(58, 59, 59);
+    display: block;
+    color:white;
+    border-radius: 20px;
+    padding: 0.5em;
+    text-decoration: none;
+    margin-top: 3%;
+    font-size: 1.5em;
+    position: relative;
+    left:50%;
+    transform: translateX(-50%);
+    width:20%;
+}
+
+.destinations{
+  background: rgb(58, 59, 59);
+  clear: both;
+  text-align: center;
+  color:white;
+  justify-content: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: sans,Verdana,Helvetica,Arial,sans-serif;
+  font-style: italic;
+  background: rgba(0, 0, 0, 0.4);
+}
+
