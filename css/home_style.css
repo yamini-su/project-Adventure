@@ -55,6 +55,7 @@ header{
     margin-top: -55px; 
     padding: 4em 2em 4em;
     transform: skewY(-1deg);
+    transition:1s transform;
     border-top-left-radius: 40px;
     border-bottom-right-radius: 40px;
     text-align: center;
