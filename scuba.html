@@ -1,116 +1,173 @@
 <!DOCTYPE html>
 <html>
+	
 <head>
-	<title>Scuba</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="alignment.css">
-	<script src=".\alignment.js"></script>
-	<script src=".\scroll.js"></script>
-
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Scuba</title>
+	  <link rel="stylesheet" href="alignment.css">
+	  <script src=".\alignment.js"></script>
+	  <script src=".\scroll.js"></script>
+	  <script src=".\imgview.js"></script>
 </head>
-
 <body bgcolor="#81ceec">
+
 	<button onclick="topFunction()" id="myBtn" title="Go to top">&#11161;</button>
 	<nav class="fixed-nav-bar">
-    <div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="./home.html">Home</a>
-  <a href="./home.html#About">About</a>
-  <a href="./home.html#signup">SignUp</a>
-  <a href="./explore.html">Explore</a>
-</div>
-
-<span style="font-size:30px;cursor:pointer; background: rgb(58, 59, 59); 
-  position: fixed;" onclick="openNav()">&#9776; Menu</span>
-</nav>
+		<div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="./home.html">Home</a>
+	        <a href="./home.html#About">About</a>
+	        <a href="./home.html#signup">SignUp</a>
+	        <a href="./explore.html">Explore</a>
+	    </div>
+            <span style="font-size:30px;cursor:pointer; background: rgb(58, 59, 59); 
+                 position: fixed;" onclick="openNav()">&#9776; Menu</span>
+    </nav>
 
 
 	<div class="cover">
-	<img src=".\images\scuba.jpg" alt="cover" style="width: 100%">
-	<div class="content">
-    <h1><b>SCUBA DIVING</b></h1>
-   </div>
-  </div>
+	    <img src="C:\Users\madhu\wad_java\project\images\new\scuba.jpg" alt="cover" style="width: 100%">
+	    <div class="content">
+            <h2 style="font-size: 28px;"><b>SCUBA DIVING</b></h2>
+        </div>
+    </div>
 
 
  <div id="main">
-  <div style="background-color: white"><b>Quick Access</b>
-  <p><a href="#Australia">Australia</a></p>
-  <p><a href="#Hong_Kong">Hong Kong</a></p>
-  <p><a href="#Malaysia">Malaysia</a></p>
-  <p><a href="#India">India</a></p>
-  <p><a href="#Indonesia">Indonesia</a></p>
-  <p><a href="#"></a></p>
-  <p><a href="#"></a></p>
-</div>
+      <div style="background-color: white"><b>Quick Access</b>
+           <p><a href="#Australia">Australia</a></p>
+           <p><a href="#Hong_Kong">Hong Kong</a></p>
+           <p><a href="#Malaysia">Malaysia</a></p>
+           <p><a href="#India">India</a></p>
+           <p><a href="#Indonesia">Indonesia</a></p>
+        </div>
 
-  <div style="background-color: white">
-  	<h1 id="Australia">AUSTRALIA</h1>
-  	<h2>GREAT BARRIER REEF </h2>
-  	<p>World's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres .The reef is located in the Coral Sea, off the coast of Queensland. This reef structure is composed of billions of tiny organisms, known as coral polyps. CNN labelled it one of the seven natural wonders of the world.</p>
-  	<details>
-  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+
+    <div style="background-color: white">
+  	    <h1 id="Australia">AUSTRALIA</h1>
+	    <h2>GREAT BARRIER REEF </h2>
+	    <p>World's largest coral reef system composed of over 2,900 individual reefs and 900 islands stretching for over 2,300 kilometres .The reef is located in the Coral Sea, off the coast of Queensland. This reef structure is composed of billions of tiny organisms, known as coral polyps. CNN labelled it one of the seven natural wonders of the world.</p>
+	  
+	    <div class="pictures">
+		    <figure><img  id="myImg"src=".\images\great_barrier_reef.jpg" alt="great barrier reef"></figure>
+		</div><br>
+
+  	    <details onclick='closeAll(this.parentNode);'>
+		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
   			<p>Made up of nearly 2900 individual reefs, 600 continental islands and 300 coral cays, the Great Barrier Reef is the world’s most diverse and largest coral structure. It is the only living structure on earth that can be seen from outer space.</p>
-  	</details>
-  	<details>
-  		<summary>BEST TIME TO DIVE</summary>
+	    </details>
+	  
+  	    <details onclick='closeAll(this.parentNode);'>
+  		    <summary>BEST TIME TO DIVE</summary>
   			<p>The best time to dive in Australia is between August and December but you can dive here all year round. The water temperature ranges from 22°C in June rising to 28°C in March. Although January, February and March are the warmest months, they are also the wettest. March and April is also a good time to go if you plan on swimming with big pelagics like whale sharks.</p>
-  	</details>
+  	    </details><br>
 
-  <h1 id="Hong_Kong">HONG KONG</h1>
-  	<h2>TAI LONG WAN</h2>
-  	<p> One of the famous scuba diving spots in Hong Kong, Tai Long Wan is an untouched, serene beach with preserved beauty and charm. For those searching for a path untraveled, this is the place to be. Lush greens, white sand, and rugged rocks covering the floors of this stunning destination make Tai Long Wan rank at the top of the list in terms of exquisiteness. The crystal clear waters with moderate temperature and strong currents attract flocks of adventure enthusiasts seeking to take a dive deep under the sea. </p>
-  	<details>
+        <h1 id="Hong_Kong">HONG KONG</h1>
+  	    <h2>TAI LONG WAN</h2>
+  	    <p> One of the famous scuba diving spots in Hong Kong, Tai Long Wan is an untouched, serene beach with preserved beauty and charm. For those searching for a path untraveled, this is the place to be. Lush greens, white sand, and rugged rocks covering the floors of this stunning destination make Tai Long Wan rank at the top of the list in terms of exquisiteness. The crystal clear waters with moderate temperature and strong currents attract flocks of adventure enthusiasts seeking to take a dive deep under the sea. </p>
+	    <div class="pictures">
+		    <figure><img  id="myImg"src=".\images\tai_long_wan.jpg" alt="tai wan long"></figure>
+	    </div><br>  
+	    <details onclick='closeAll(this.parentNode);'>
   		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
   			<p> Lush greens, white sand, and rugged rocks covering the floors of this stunning destination make Tai Long Wan rank at the top of the list in terms of exquisiteness.</p>
-  		</details>
-  		<details>
+		</details> 
+  		<details onclick='closeAll(this.parentNode);'>
   		<summary>BEST TIME TO DIVE</summary>
   			<p> The visibility underwater to witness the beauty of coral reefs and enchanting marine wildlife is best during the months of September and October when the winds change and one gets to enjoy their dive without any algae floating around.</p>
-  		</details>
+  		</details><br>
 
   		<h1 id="Malaysia">MALAYSIA</h1>
   		<h2>SIPADAN ISLAND</h2>
   		<p>Barracuda Point- Wall of coral where sharks come cruising by and barracuda surround you. You are guaranteed to see big stuff here and lots of it. Occasional strong currents blast over an underwater prairie that's home to white tips, turtles, grouper, jacks, bumphead parrotfish and of course the barracuda that give it its name.</p>
-  		<details>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\spiden.jpg" alt="sipadan"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
   		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
   			<p>Many massive green turtles and hawksbill turtles swim all-over the place starting in the shallows, still on top the pinnacle herds of hundreds of huge bumphead parrot fish come by swimming in-line, descending on the wall passing sharks keeps your camera firing, there are resident schools of thousands of jackfish that someone can disappear in, gliding over the reef in the pumping current Sipadan is famous for enormous resident schools of barracudas, forming a vortex or barracuda tornado around you with some luck.</p>
   		</details>
-  		<details>
+  		<details onclick='closeAll(this.parentNode);'>
   			<summary>BEST TIME TO DIVE</summary>
   			<p>The best time runs from April to December with excellent sea conditions. April until early of June being the perfect time.</p>
-  		</details>
+  		</details><br>
+
 
   		<h1 id="India">INDIA</h1>
   		<h2>ANDAMAN</h2>
   		<p>Deep clean blue water and gorgeous marine life makes Andaman truly a magical place to explore. The marine life of Andaman is a lifetime experience to explore which is worth an adventure trip to have.Most of the islands are enclosed by long stretches of reefs, usually several hundred meters wide and separated by the shore with shallow waters and complimented by volcanic lava hills that make the experience unique and hard to find anywhere else.</p>
-  		<details>
-  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\andaman.jpg" alt="Andaman"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
   			<p>From scorpion fish and Octopus to Sharks and Coral Reefs, there are many things which you cannot lose to miss. Alive corals house some of the world’s most vibrant fishes and sea-dwellers which pop-out from the blue ocean and present a beautiful scene around the diver.</p>
   		</details>
-  		<details>
+  		<details onclick='closeAll(this.parentNode);'>
   			<summary>BEST TIME TO DIVE</summary>
   			<p>January to May is considered as the best time when the island remains clam and conditions are better for diving.</p>
-  		</details>
+  		</details><br>
 
   		<h1 id="Indonesia">INDONESIA</h1>
   		<h2>BALI</h2>
   		<p>USAT Liberty- This wreck is very popular with photographers as it is totally encrusted in anemone, gorgonians and corals. Look for the hawksbill turtle which practically lives on the Liberty and interesting small stuff like the beautiful purple Scorpion Leaf Fish and Ornate Ghost Pipefish. Larger fish you might see there include Great Barracuda and Flapnose Ray. The wreck is quite broken up but you can go in the cargo hold. You dive it not so much for the experience of wreck diving but for the fabulous sealife. Usually dived from the shore, the Liberty is also on some liveaboard itinaries.</p>
-  		<details>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\bali_wreck.jpg" alt="USAT"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
   		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
   			<p>It is covered in marine life that has transformed the ship’s remains into an underwater haven. Here, you will find a variety of hard and soft corals, sea fans, nudibranchs, gorgonians, hydroids, anemones, big-eyed trevally, jacks, gobies, lizardfish, barracuda </p>
   		</details>
-  		<details>
+  		<details onclick='closeAll(this.parentNode);'>
   			<summary>BEST TIME TO DIVE</summary>
   			<p>Diving is possible here during any month of the year. Visibility usually averages at around 20 meters, or 66 feet, during the rainy season, it can drop to 10 and 15 meters, or 33 to 49 feet. The water is consistently warm and comfortable throughout the year, whether you go in January or June.</p>
-  		</details>
-
-
+  		</details><br>
   	</div>
 
-  <div style="background-color: white;"></div>
+<div style="background-color: white;"></div>
 </div>
+<div>
+	<h2>See Also</h2>
+	<div class="wrapper">
+		<div class="cards">
+			  <a href=".\boat.html">
+			  <img src=".\images\boat.jpg" alt="boat" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href=".\boat.html"><h3><b>BOATING DESTINATIONS</b></h3></a>
+			<p> Gear up your group to budge in and experience sophisticated life on ocean waves.</p>
+		  </div>
+		</div>
+	   </div>
 
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\bungee.html">
+			  <img src=".\images\bungee-jumping.jpg" alt="bungee" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href=".\bungee.html"><h3><b>BUNGEE JUMPING</b></h3></a>
+			<p>Bungee jumping involves leaping from a height connected to a large elastic rope (or cord), which is tied to the feet.This is an adrenaline- filled activity.</p>
+		  </div>
+		</div>
+	   </div> 
+	  
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\gliding.html">
+			  <img src=".\images\paragliding.jpg" alt="gliding" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href=".\gliding.html"><h3><b>PARAGLIDING</b></h3></a>
+			<p>Just like hundreds of bird flying in the sky, it is just an amazing feel to fly in the air. Open your wings and look at the beautiful scenaries making your dreams come true. </p>
+		  </div>
+		</div>
+	   </div> 
 
+	   <div class="feedback">
+		<h2 class="shout">For Queries and Feedback</h2>
+		<a href="./feedback.html" class="atc">Contact Us</a>
+	</div>
+</div>
 </body>
 </html>
