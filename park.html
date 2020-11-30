@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Theme Park</title>
+	  <link rel="stylesheet" href="alignment.css">
+	  <script src=".\alignment.js"></script>
+	  <script src=".\scroll.js"></script>
+	  <script src=".\imgview.js"></script>
+</head>
+<body bgcolor="#81ceec">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#11161;</button>
+	<nav class="fixed-nav-bar">
+		<div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="./home.html">Home</a>
+	        <a href="./home.html#About">About</a>
+	        <a href="./home.html#signup">SignUp</a>
+	        <a href="./explore.html">Explore</a>
+	    </div>
+            <span style="font-size:30px;cursor:pointer; background: rgb(58, 59, 59); 
+                 position: fixed;" onclick="openNav()">&#9776; Menu</span>
+    </nav>
+
+
+	<div class="cover">
+	    <img src=".\images\new\park.jpg" alt="cover" style="width: 100%">
+	    <div class="content">
+            <h2 style="font-size: 28px;"><b>THEME PARK</b></h2>
+        </div>
+    </div>
+
+
+ <div id="main">
+      <div style="background-color: white"><b>Quick Access</b>
+           <p><a href="#Singapore">Singapore</a></p>
+           <p><a href="#Italy"> Italy</a></p>
+           <p><a href="#United Kingdom">United Kingdom</a></p>
+           <p><a href="#France">France</a></p>
+           <p><a href="#America">America</a></p>
+        </div>
+
+
+    <div style="background-color: white">
+        <h1 id="#Singapore">SINGAPORE</h1>
+  		<h2>UNIVERSAL STUDIOS - SENTOSA GATEWAY</h2>
+  		<p>Known as “one of its kind theme park in Asia,” the Universal Studios Singapore speaks for its 24 attractions located within 7 theme areas that include Hollywood, New York, Sci-Fi City, Far Far Away, Madagascar, The Lost World, and Ancient Egypt.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\universal_studio.jpg" alt="Universal Studios"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Meet your favorite Hollywood stars and even dine with them, watch jaw-dropping stunts and sci-fi shows, or chase the dinosaurs from the Jurassic Park. </p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO HAVE FUN</summary>
+  			<p>The best time to visit the Studio is all around the year. However, you should keep in mind that weekends are the busiest when tourists in great number throng to the attraction. Also, March, June, September, and December are the busiest months due to school holidays.</p>
+          </details><br>
+
+          <h1 id="Italy">ITALY</h1>
+  		<h2>GARDALAND PARK</h2>
+  		<p>Gardaland is the Number 1 Amusement park in Italy, the one that has been around the longest in Italy and is one of the most important at European level.  </p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\gardaland.jpg" alt="Gardaland"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Embark on a fantastic adventure with the themed-water well, and the thrilling rides that includes Blue Tornado, Raptor, Magic Mountain, Sequoia Adventure, Oblivion – The Black Hole, and a lot more.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO HAVE FUN</summary>
+  			<p>The best time to visit Lake Garda is the summer(July - August), when temperatures rarely fall below 25°C. </p>
+          </details><br>
+          
+  		<h1 id="United Kingdom">UNITED KINGDOM</h1>
+  		<h2>ALTON TOWERS - ENGLAND</h2>
+  		<p>Opened in 1980, Alton Towers in UK is one of the top amusement parks in the world that consist of a theme park, water park, and a hotel complex along with treatment rooms in Staffordshire, England.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\alton.jpg" alt="Alton Towers"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Embark on an unforgettable journey of fun and musings at the tropical Caribbean themes, the paradise plumbers, the Master blaster water coaster, and the exhilarating rides only at Alton Towers.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO HAVE FUN</summary>
+  			<p>Alton Towers Theme Park in United Kingdom is open from March until November every year. Wander around theme park in summer to experience best fun. </p>
+  		</details><br>
+
+
+  		<h1 id="France">FRANCE</h1>
+  		<h2>DISNEYLAND - PARIS</h2>
+  		<p>Disneyland Paris is one of the classical attractions that is known to be among the well-known and biggest amusement parks in the world. Disneyland offers entertainment complexes, musical tour of world attractions, roller coaster rides, shopping, and much more.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\disneyland.jpg" alt="Disneyland"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>The incredible themes like Big Thunder Mountain, and Pirates of the Caribbean are just a few of the numerous surprises that must not be missed when you enter into the most sought theme parks in all of Europe. </p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO HAVE FUN</summary>
+  			<p>If you want to visit when the number of Guests is fairly low, plan to stay mid-week (Tuesdays to Thursdays) during mid-January through mid-March or mid-April through mid-May.</p>
+  		</details><br>
+
+  		<h1 id="America">AMERICA</h1>
+  		<h2>UNIVERSAL ORLANDO RESORT</h2>
+  		<p>Opened on June 7, 1990, the park's theme is the entertainment industry, in particular movies and television.The park encourages its guests to "ride the movies" and features numerous attractions and live shows.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\orlando.jpg" alt="Orlando"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Feel the highs and lows on Harry Potter, Transformers, Revenge of the Mummy, Men in Black Alien Attack, Kang & Kodos' Twirl 'n' Hurl, E.T. Adventure, Despicable Me Minion Mayhem and The Simpsons-themed rides.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO HAVE FUN</summary>
+  			<p>April and May are some of the best months to visit Universal Studios. This is the 'shoulder season' when you'll get the best of peak season and low season perks.</p>
+  		</details><br>
+  	</div>
+
+<div style="background-color: white;"></div>
+</div>
+<div>
+	<h2>See Also</h2>
+	<div class="wrapper">
+		<div class="cards">
+			  <a href="\bashing.html">
+			  <img src=".\images\dune.jpg" alt="dune bashing" style="width:100%">
+		  </a>
+		  <div class="container">
+			  <a href="\bashing.html"><h3><b>DUNE BASHING</b></h3></a>
+			<p>Windswept and rippled, sand dunes are some of the most magical places on the planet. Just a simple shift in wind direction can transform these majestic mountains into an entirely different landscape.</p>
+		  </div>
+		</div>
+	   </div>
+
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\safari.html">
+			  <img src=".\images\safari.jpg" alt="safari" style="width:100%">
+		  </a>
+		  <div class="container">
+			  <a href=".\safari.html"><h3><b>SAFARI</b></h3></a>
+			<p>A trip through the wildlife might be the closest dream you get to experience along with goosebumps. These are some overwhelming sights. </p>
+		  </div>
+		</div>
+	   </div> 
+	  
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\balloon.html">
+			  <img src=".\images\africa_balloon.jpg" alt="balloon" style="width:100%;">
+			  </a>
+		  <div class="container">
+			<a href=".\balloon.html"><h3><b>HOT AIR BALLOON</b></h3></a>
+			  <p>Flying high in the sky in a vibrant coloured giant hot air balloon has been topping our bucket list and is a fantasy.</p>
+		  </div>
+		 </div>
+	  </div>
+
+	   <div class="feedback">
+		<h2 class="shout">For Queries and Feedback</h2>
+		<a href="./feedback.html" class="atc">Contact Us</a>
+	</div>
+</div>
+</body>
+</html>

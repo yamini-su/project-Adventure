@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Balloon</title>
+	  <link rel="stylesheet" href="alignment.css">
+	  <script src=".\alignment.js"></script>
+	  <script src=".\scroll.js"></script>
+	  <script src=".\imgview.js"></script>
+</head>
+<body bgcolor="#81ceec">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#11161;</button>
+	<nav class="fixed-nav-bar">
+		<div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="./home.html">Home</a>
+	        <a href="./home.html#About">About</a>
+	        <a href="./home.html#signup">SignUp</a>
+	        <a href="./explore.html">Explore</a>
+	    </div>
+            <span style="font-size:30px;cursor:pointer; background: rgb(58, 59, 59); 
+                 position: fixed;" onclick="openNav()">&#9776; Menu</span>
+    </nav>
+
+
+	<div class="cover">
+	    <img src=".\images\new\balloon.jpg" alt="cover" style="width: 100%">
+	    <div class="content">
+            <h2 style="font-size: 28px;"><b>HOT AIR BALLOON</b></h2>
+        </div>
+    </div>
+
+
+ <div id="main">
+      <div style="background-color: white"><b>Quick Access</b>
+           <p><a href="#Turkey">Turkey</a></p>
+           <p><a href="#Africa"> Africa</a></p>
+           <p><a href="#Namibia">Namibia</a></p>
+           <p><a href="#Mexico">Mexico</a></p>
+           <p><a href="#Egypt">Egypt</a></p>
+        </div>
+
+
+    <div style="background-color: white">
+  	    <h1 id="Turkey">TURKEY</h1>
+	    <h2>CHIMNEY ROCK</h2>
+	    <p>The rock formations that have made Cappadocia one of the most popular destinations in Turkey emerged due to a geological process that began millions of years ago.</p>
+	  
+	    <div class="pictures">
+		    <figure><img  id="myImg"src=".\images\new\chimney_rock.jpg" alt="chimney rock"></figure>
+		</div><br>
+
+  	    <details onclick='closeAll(this.parentNode);'>
+		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>The chimneys are otherworldly, cone-like rock formations and caves that look especially amazing when viewed from the basket of a hot air balloon at sunrise. Note, the views are also pretty cool from the ground, watching the balloons ascend above the whimsical landscape.</p>
+	    </details>
+	  
+  	    <details onclick='closeAll(this.parentNode);'>
+  		    <summary>BEST TIME TO EXPERIENCE</summary>
+  			<p>The best time to visit Cappadocia is from March to June or September to November when the crowds are thinner and the weather is milder. June to August is the peak season so it can get crowded, and it can get bitterly cold during the winter months from November to late February.</p>
+  	    </details><br>
+
+        <h1 id="Africa">AFRICA</h1>
+  	    <h2>SERENGETI NATIONAL PARK</h2>
+  	    <p>Experience the breathtaking beauty of the Serengeti National Park in Tanzania on a once-in-a-lifetime hot air balloon flight. At dawn, rise as the sun greets the day and float in whichever direction the winds of the morning take you.</p>
+	    <div class="pictures">
+		    <figure><img  id="myImg"src=".\images\africa_balloon.jpg" alt="Serengeti"></figure>
+	    </div><br>  
+	    <details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>You know the opening credits of The Lion King, where they give you a bird's-eye view across the savannah, and you see all the animals on the move? You can have that visual in real life when you book a hot air balloon ride over Tanzania's Serengeti National Park with Serengeti Balloon Safaris.</p>
+		</details> 
+  		<details onclick='closeAll(this.parentNode);'>
+  		<summary>BEST TIME TO EXPERIENCE</summary>
+  			<p> there are some recommended months around the year which are deemed the best for balloon safaris in the Serengeti due to the pleasant weather. This period is known as the 'Dry Season' stretching from the end of June to October.</p>
+  		</details><br>
+
+  		<h1 id="Namibia">NAMIBIA</h1>
+  		<h2>SOSSUSVLEI</h2>
+  		<p>The shifting red and orange sands of the Namib Desert around Sossusvlei in still undiscovered Namibia are amazing when seen from the ground and truly out of this world when seen from above. </p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\namibia.jpg" alt="Sossusvlei"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Drifting over the dunes' constantly shifting designs under a cloudless, blue African sky is a soul soothing, once-in-a-lifetime adventure you won't ever forget. You'll pass over (or as close as the winds take you to) the tallest and oldest dune on the planet.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO EXPERIENCE</summary>
+  			<p>The best time to visit Sossusvlei is autumn from March until May or spring from August to October. The cool air offers clearer skies and ideal photography conditions and temperatures are milder both day and night.</p>
+  		</details><br>
+
+
+  		<h1 id="Mexico">MEXICO</h1>
+  		<h2>ALBUQUERQUE</h2>
+  		<p>Mass ascensions, when many hundreds of balloons lift off into the morning sky, are held on all four weekend mornings and one day mid-week. Mass ascensions begin after "dawn patrol" carefully examines the morning's weather conditions. When the dawn patrol gives the green light, balloons from all over the world rise together in a harmonious lift-off. The sight of 500 balloons in the sky is as breathtaking for first-time visitors.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\mexico.jpg" alt="Albuquerque"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Various events like Dawn Patrol, Mass ascensions, Artistic Vision, Special Shape Rodeo, Balloon Glows</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO EXPERIENCE</summary>
+  			<p>For nine days in October, Albuquerque becomes the epicentre of the hot air ballooning world when it hosts the Albuquerque International Balloon Fiesta. The annual event is the largest hot air balloon race and festival on the planet and features mass ascents, with hundreds of balloons rising at once, as well as speed racing competitions. It is quite an experience.</p>
+  		</details><br>
+
+  		<h1 id="Egypt">EGYPT</h1>
+  		<h2>LUXOR</h2>
+  		<p>Seeing Egypt's Valley of the Kings from the basket of a hot air balloon, as the sun rises and turns the desert and lush green of the Nile River landscape golden, is a sight you won't ever forget. Luxor has a number of ballooning companies offering you the chance to see the ancient tombs and temples from above, including Sindbad Balloons.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\egypt.jpg" alt="Egypt"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Tour companies offer sunrise rides in hot air balloons to tourists who enjoy views of ancient Thebes, the temple complexes of Karnak and Luxor, the Valley of the Kings and the Valley of the Queens.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO EXPERIENCE</summary>
+  			<p>Weather conditions for ballooning are best just after sunrise and 2-3 hours before sunset. Light, ideal winds (4-6 mph) often occur during these times. During the day, when the sun is high, thermals (large bubbles of hot air that rise from the sun-heated earth) make ballooning hazardous.</p>
+  		</details><br>
+  	</div>
+
+<div style="background-color: white;"></div>
+</div>
+<div>
+	<h2>See Also</h2>
+	<div class="wrapper">
+		<div class="cards">
+			  <a href="C:\Users\madhu\wad_java\project\park.html">
+			  <img src="C:\Users\madhu\wad_java\project\images\themepark.jpg" alt="themepark" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href="C:\Users\madhu\wad_java\project\park.html"><h3><b>THEME PARKS</b></h3></a>
+			<p>Park that features various attractions, such as rides,games,other events for entertainment purposes based on a central theme.</p>
+		  </div>
+		</div>
+	   </div>
+
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\bungee.html">
+			  <img src=".\images\bungee-jumping.jpg" alt="bungee" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href=".\bungee.html"><h3><b>BUNGEE JUMPING</b></h3></a>
+			<p>Bungee jumping involves leaping from a height connected to a large elastic rope (or cord), which is tied to the feet.This is an adrenaline- filled activity.</p>
+		  </div>
+		</div>
+	   </div> 
+	  
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\gliding.html">
+			  <img src=".\images\paragliding.jpg" alt="gliding" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href=".\gliding.html"><h3><b>PARAGLIDING</b></h3></a>
+			<p>Just like hundreds of bird flying in the sky, it is just an amazing feel to fly in the air. Open your wings and look at the beautiful scenaries making your dreams come true. </p>
+		  </div>
+		</div>
+	   </div> 
+
+	   <div class="feedback">
+		<h2 class="shout">For Queries and Feedback</h2>
+		<a href="./feedback.html" class="atc">Contact Us</a>
+	</div>
+</div>
+</body>
+</html>

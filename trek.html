@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+	
+<head>
+	  <meta name="viewport" content="width=device-width, initial-scale=1">
+	  <title>Trek</title>
+	  <link rel="stylesheet" href="alignment.css">
+	  <script src=".\alignment.js"></script>
+	  <script src=".\scroll.js"></script>
+	  <script src=".\imgview.js"></script>
+</head>
+<body bgcolor="#81ceec">
+
+	<button onclick="topFunction()" id="myBtn" title="Go to top">&#11161;</button>
+	<nav class="fixed-nav-bar">
+		<div id="mySidenav" class="sidenav">
+	        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	        <a href="./home.html">Home</a>
+	        <a href="./home.html#About">About</a>
+	        <a href="./home.html#signup">SignUp</a>
+	        <a href="./explore.html">Explore</a>
+	    </div>
+            <span style="font-size:30px;cursor:pointer; background: rgb(58, 59, 59); 
+                 position: fixed;" onclick="openNav()">&#9776; Menu</span>
+    </nav>
+
+
+	<div class="cover">
+	    <img src=".\images\new\trekking.jpg" alt="cover" style="width: 100%">
+	    <div class="content">
+            <h2 style="font-size: 28px;"><b>TREKKING</b></h2>
+        </div>
+    </div>
+
+
+ <div id="main">
+      <div style="background-color: white"><b>Quick Access</b>
+           <p><a href="#NewZealand">New Zealand</a></p>
+           <p><a href="#Switzerland"> Switzerland</a></p>
+           <p><a href="#America">America</a></p>
+           <p><a href="#France">France</a></p>
+           <p><a href="#Nepal">Nepal</a></p>
+        </div>
+
+
+    <div style="background-color: white">
+        <h1 id="#NewZealand">NEW ZEALAND</h1>
+  		<h2>ROUTE BURN TRACK</h2>
+  		<p>This short yet splendid 20 miles long trail passes through two diverse and awe-inspiring national parks, namely Mt. Aspiring and Fiordland. Trekking here offers a wonderful opportunity to explore the stunning views of magnificent peaks, lakes, rivers, waterfalls, and the superb spectacle of wild birds. </p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\routeburn.jpg" alt="Route burn"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>As you begin to climb the highly accessible and admired Routeburn Track, the spectacular views of Hollyford Valley and Darran Mountains spellbind you. Welcome to the alpine adventure of New Zeeland! </p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO TREK</summary>
+  			<p>The best hiking begins in spring (September to November in the Southern Hemisphere) when vast fields of the famous Mount Cook buttercup (Ranunculus lyallii) are in full flower. Spring temperature averages range from 9C (48F) - 17C (62F).</p>
+          </details><br>
+
+          <h1 id="Switzerland">SWITZERLAND</h1>
+  		<h2>HAUTE ROUTE</h2>
+  		<p>It seems the marvellous French architecture has been inspired from the revered ‘The Haute Route.’ This brilliant trekking trail begins at Chamonix in France and meanders through the southern Valais into Zermatt in Switzerland. </p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\hauteroute.jpg" alt="Haute route"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>This enchanted route offers picturesque views of the highest pathways available to hikers. This physically demanding European Alps hiking takes 2 weeks to finish.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO TREK</summary>
+  			<p>Haute Route is best done in the alpine summer walking season. That's high season in July and August, with June and September still a good possibility. Snow could remain on higher passes well into July.</p>
+          </details><br>
+          
+  		<h1 id="America">AMERICA</h1>
+  		<h2>TORRESS DEL CIRCUIT</h2>
+  		<p>Trekking in Torres del Paine is different than anywhere else in the world. You can pretty much count on very strong winds, rain, mud, and sometimes even snow. It sounds extreme but with the proper gear and preparation it’s a lot easier to enjoy it.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\chile.jpg" alt="Chile"></figure>
+		</div><br>  
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>The 100km long trail of the Torres del Circuit offers stunning views of pink granite spires, jagged mountains, and dramatic alpine landscapes. A UNESCO Biosphere Reserve, this route offers panoramic mountain views, glittering glacial lakes, magnificent Magellenic forest, and exceptional wildlife.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO TREK</summary>
+  			<p>The best time to visit Chilean Patagonia is November to early March (summertime in the southern hemisphere). Although you'll compete with heavy crowds during this peak season, the weather is ideal for exploring Torres del Paine National Park and Tierra del Fuego.</p>
+  		</details><br>
+
+
+  		<h1 id="France">FRANCE</h1>
+  		<h2>GRAND RANDONEE20(GR20)</h2>
+  		<p>GR20 is not only counted amongst the world’s top scenic treks, but also the most exigent for both professionals and beginners. This celebrated trail is popular for its diverse landscapes, as it navigates the lofty mountains, ridges, and granite slopes. </p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\GR20.jpg" alt="GR20"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		   <summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>Experience the Shepherds lifestyle en route, as you meander through tricky passages and enjoy the pristine views of snow-clad peaks, glacial lakes, and vivid forests. You would simply love the challenge to traverse the rocky and steep pathways in France.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO TREK</summary>
+  			<p>The best time for the GR20 trek is late June and early September, when most huts are open, weather is not so hot and the trail is less crowded than in July or August. Between November and May there is snow in the mountains and the trail is quite dangerous.</p>
+  		</details><br>
+
+  		<h1 id="Nepal">NEPAL</h1>
+  		<h2>EVEREST</h2>
+  		<p>Everest is shaped like a three-sided pyramid. The three generally flat planes constituting the sides are called faces, and the line by which two faces join is known as a ridge. The southern route via the Khumbu Icefall and the South Col is the one most commonly taken by climbers attempting to summit Everest.</p>
+		<div class="pictures">
+			<figure><img  id="myImg"src=".\images\new\everest.jpg" alt="Everest"></figure>
+		</div><br>    
+		<details onclick='closeAll(this.parentNode);'>
+  		<summary>WHAT'S SO SPECIAL ABOUT IT?</summary>
+  			<p>This trek originates from the Khumbu region in Nepal Himalayans, where the three majestic mountains namely, Mount Everest, Lhotse Sar, and Mount Lhotse spellbind you. En route, get close and personal with oldest Buddhist Monasteries and Sherpa villages.</p>
+  		</details>
+  		<details onclick='closeAll(this.parentNode);'>
+  			<summary>BEST TIME TO TREK</summary>
+  			<p>The best one is in April and May, right before the monsoon. Once the monsoon comes, the snow is too soft and the likelihood of avalanche too great. For a few weeks in September, after the monsoon, weather conditions may also permit an attempt; by October, however, the winter storms begin and persist until March, making climbing then nearly impossible.</p>
+  		</details><br>
+  	</div>
+
+<div style="background-color: white;"></div>
+</div>
+<div>
+	<h2>See Also</h2>
+	<div class="wrapper">
+		<div class="cards">
+			  <a href=".\camp.html">
+			  <img src=".\images\camping.jpg" alt="camp" style="width:100%">
+		  </a>
+		  <div class="container">
+			  <a href=".\camp.html"><h3><b>CAMPING</b></h3></a>
+			<p>There is a no more rewarding feeling than pitching a tent for the night. Discover somewhere new with our pick of the best places to camp around the world.</p>
+		  </div>
+		</div>
+	   </div>
+
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href=".\safari.html">
+			  <img src=".\images\safari.jpg" alt="safari" style="width:100%">
+		  </a>
+		  <div class="container">
+			  <a href=".\safari.html"><h3><b>SAFARI</b></h3></a>
+			<p>A trip through the wildlife might be the closest dream you get to experience along with goosebumps. These are some overwhelming sights. </p>
+		  </div>
+		</div>
+	   </div> 
+	  
+	   <div class="wrapper">
+		<div class="cards">
+			  <a href="C:\Users\madhu\wad_java\project\scuba.html">
+			  <img src="C:\Users\madhu\wad_java\project\images\andaman.jpg" alt="scuba" style="width:100%">
+		  </a>
+		  <div class="container">
+			<a href="C:\Users\madhu\wad_java\project\scuba.html"><h3><b>SCUBA DIVING</b></h3></a>
+			<p>Mode of underwater diving where the diver uses a self-contained underwater breathing apparatus, which is completely independent of surface supply, to breathe underwater.</p>
+		  </div>
+		</div>
+	   </div>
+
+	   <div class="feedback">
+		<h2 class="shout">For Queries and Feedback</h2>
+		<a href="./feedback.html" class="atc">Contact Us</a>
+	</div>
+</div>
+</body>
+</html>
